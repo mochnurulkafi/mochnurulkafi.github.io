@@ -286,10 +286,51 @@ img {
 }
 
 /*=============== BUTTONS ===============*/
-
+.button{
+  display: inline-block;
+  background-color: white;
+  color:#2f3e49;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .4s;
+}
+.button:hover{
+  background-color: #2f3e49;
+  color: white;
+  border: 2px solid;
+}
+.button-ghost{
+  background-color: transparent;
+  border: 2px solid;
+  color:white;
+}
+.button-ghost:hover{
+  background-color: white;
+  color: #2f3e49;
+  border: 2px solid;
+}
 
 /*=============== ABOUT ===============*/
+.about-container{
+  row-gap: 2.5rem;
+}
 
+.about-img{
+  width: 220px;
+  background-color: #df9d63;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about-data{
+  text-align: center;
+}
+
+.about-desc{
+  margin-bottom: 2rem;
+  text-align: justify;
+}
 
 /*=============== SKILLS ===============*/
 
