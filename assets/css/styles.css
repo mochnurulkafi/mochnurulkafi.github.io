@@ -141,21 +141,21 @@ img {
   padding: 4.5rem 0 1rem;
 }
 
-.section__title, 
-.section__subtitle {
+.section-title, 
+.section-subtitle {
   text-align: center;
 }
 
-.section__title {
+.section-title {
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: white;
   margin-bottom: 2rem;
 }
 
-.section__subtitle {
+.section-subtitle {
   display: block;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: white;
 }
 
 /*=============== HEADER & NAV===============*/
@@ -186,7 +186,7 @@ img {
 .nav-menu{
   position: fixed;
   bottom: 1rem;
-  /* background-color: #df9d63; */
+  background-color: #494c58;
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
@@ -272,7 +272,7 @@ img {
 
 .home-social-link{
   width: max-content;
-  background-color: #495e6d;
+  background-color: #494c58;
   color: white;
   padding: .25rem;
   border-radius: .25rem;
@@ -332,8 +332,60 @@ img {
   text-align: justify;
 }
 
-/*=============== SKILLS ===============*/
 
+
+/*=============== SKILLS ===============*/
+.skills-container{
+  row-gap: 2.5rem;
+  padding-top: 1rem;
+}
+.skills-content{
+  background-color: #494c58;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.skills-title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: white;
+  text-align: center;  
+  margin-bottom: 1.5rem;
+}
+
+.skills-box{
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.skills-group{
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills-data{
+  display: flex;
+  column-gap: .5rem;
+}
+
+.skills-icon{
+  width: 16px;
+  height: 16px;
+  color: #df9d63;
+}
+
+.skills-name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+}
+.skills-level{
+  font-size: var(--tiny-font-size);
+}
+
+/*   */
 
 /*=============== SERVICES ===============*/
 
